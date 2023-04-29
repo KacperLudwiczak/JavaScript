@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <title>Pierwszy program</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="pytanie1s">Ilu uczniów jest w twojej klasie?</div>
+      <input id="pytanie1" type="text" />
+
+      <div class="pytanie2s">Ilu cukierków kupiła mama?</div>
+      <input id="pytanie2" type="text" />
+
+      <div class="odp1">Ilość cukierków dla każdego:</div>
+      <div id="wynik1"></div>
+
+      <div class="odp2">Ilość cukierków dla Ciebie zostało:</div>
+      <div id="wynik2"></div>
+
+      <input onclick="sprawdz()" type="submit" value="Sprawdź" id="button" />
+    </div>
+  </body>
+</html>

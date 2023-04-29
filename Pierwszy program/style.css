@@ -1,0 +1,91 @@
+body {
+  background-color: #7ec4e4;
+  color: #fff;
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: #7ec4e4;
+  background-color: #fff;
+  width: 480px;
+  height: 500px;
+  border-radius: 15px;
+  text-align: center;
+}
+.pytanie1s {
+  font-size: 25px;
+  margin: 5px;
+  padding: 10px;
+}
+.pytanie2s {
+  font-size: 25px;
+  margin: 5px;
+  padding: 10px;
+}
+.odp1 {
+  font-size: 25px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-top: auto;
+}
+#wynik1 {
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-top: auto;
+}
+.odp2 {
+  font-size: 25px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-top: auto;
+}
+#wynik2 {
+  font-size: 20px;
+  margin-left: auto;
+  margin-top: auto;
+  text-align: center;
+}
+#pytanie1 {
+  display: inline-block;
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 3px solid#7ec4e4;
+  color: #7ec4e4;
+  outline: none;
+  padding: 5px;
+}
+
+#pytanie2 {
+  display: inline-block;
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 15px;
+  color: #7ec4e4;
+  border: 3px solid#7ec4e4;
+  outline: none;
+  padding: 5px;
+}
+#button {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 60px;
+  color: #303030;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: auto;
+  display: inline;
+}
