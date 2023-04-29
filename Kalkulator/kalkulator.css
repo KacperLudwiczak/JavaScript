@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #729ba5;
+  background: linear-gradient (to bottom, red, blue);
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  background-color: rgba(86, 92, 91, 0.933);
+  -webkit-box-shadow: 11px 13px 23px -9px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 11px 13px 23px -9px rgba(66, 68, 90, 1);
+  box-shadow: 11px 13px 23px -9px rgba(66, 68, 90, 1);
+}
+button:hover {
+  background-color: rgba(106, 112, 111, 0.933);
+}
+.textview {
+  width: 213px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  color: rgba(86, 92, 91, 0.933);
+  -webkit-box-shadow: 11px 13px 23px -9px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 11px 13px 23px -9px rgba(66, 68, 90, 1);
+  box-shadow: 11px 13px 23px -9px rgba(66, 68, 90, 1);
+}
